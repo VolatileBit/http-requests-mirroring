@@ -87,9 +87,9 @@ func (h *httpStream) run() {
 
 func forwardRequest(req *http.Request, reqSourceIP string, reqDestionationPort string, body []byte) {
 	// To reproduce read-only traffic, only GET requests are forwarded
-	log.Println("Request Method", req.method)
+	log.Println("Request Method", req.Method)
 	if req.Method != http.MethodGet {
-		log.Println("Skipping due to not a GET request", req.method)
+		log.Println("Skipping due to not a GET request", req.Method)
 		return
 	}
 
