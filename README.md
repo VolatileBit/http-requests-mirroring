@@ -1,3 +1,5 @@
+Set up an instance using `ec2_user_data.sh`, and add it to the load balancer to parse and forward mirrored traffic
+
 ## Mirror production traffic to test environment with VPC Traffic Mirroring
 
 This repository contains the artifacts for the AWS blog post [Mirror production traffic to test environment with VPC Traffic Mirroring](https://aws.amazon.com/blogs/networking-and-content-delivery/mirror-production-traffic-to-test-environment-with-vpc-traffic-mirroring/).
